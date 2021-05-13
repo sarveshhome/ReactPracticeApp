@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from '../UI/Button';
 import Card from '../UI/Card';
+import ErrorModel from '../UI/ErrorModel';
 import cssclass from './AddUser.module.css';
 
 
@@ -33,6 +34,8 @@ const ageChangeHandler =(event)=>{
 }
 
     return(
+        <div>
+        <ErrorModel title ="an error occur!" message="something wrong!"/>
         <Card className={cssclass.input}>
             <form onSubmit={addUserHandle}>
                 <label htmlFor="username">UserName</label>
@@ -42,6 +45,7 @@ const ageChangeHandler =(event)=>{
                 <Button type="submit" name="submit">Add User</Button>
             </form>
         </Card>
+        </div>
     )
         };
 
