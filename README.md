@@ -1,3 +1,22 @@
+publish website --
+
+
+https://609d2335e5d1cdd613236d6a--netlify-reactpracticeapp.netlify.app
+
+
+
+step 1: `npm install netlify-cli -g`
+
+step 2:  `netlify deploy`
+
+step 3:  What would you like to do? => # Create & configure a new site.
+
+step 4: publish directory =>  "./build"
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
