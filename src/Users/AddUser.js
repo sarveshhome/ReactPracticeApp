@@ -19,6 +19,7 @@ const addUserHandle = (event) => {
         return;
       }
     console.log(enteredUsername,enteredAge);
+    props.onAddUser(enteredUsername,enteredAge);
     setEnteredUsername('');
     setEnteredAge('');
 }
