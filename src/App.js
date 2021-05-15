@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{Fragment, useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import AddUser  from './components/Users/AddUser';
@@ -13,11 +13,11 @@ function App() {
   };
 
   return (  
-      /**Fragment  <>  </>   */  
-      <>
+      /**Fragment  <>  </> or <Fragment></Fragment>   */  
+      <Fragment>
         <AddUser onAddUser={addUserHandler}/>
         <UserList users={usersList}/>
-      </>
+      </Fragment>
   );
 }
 
