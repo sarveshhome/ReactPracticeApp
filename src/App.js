@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import AddUser  from './Users/AddUser';
-import UserList from './Users/UserList';
+import AddUser  from './components/Users/AddUser';
+import UserList from './components/Users/UserList';
 function App() {
   const [usersList,setUsersList] = useState([]);
   
