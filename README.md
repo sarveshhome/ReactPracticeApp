@@ -3,6 +3,7 @@ publish website --
 
 https://609d2335e5d1cdd613236d6a--netlify-reactpracticeapp.netlify.app
 
+https://netlify-reactpracticeapp.netlify.app/
 
 
 step 1: `npm install netlify-cli -g`
@@ -15,6 +16,8 @@ step 4: publish directory =>  "./build"
 
 
 
+----------------------------
+netlify deploy --prod
 
 
 # Getting Started with Create React App
