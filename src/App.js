@@ -12,11 +12,12 @@ function App() {
       });
   };
 
-  return (    
-      <div className="App">
+  return (  
+      /**Fragment  <>  </>   */  
+      <>
         <AddUser onAddUser={addUserHandler}/>
         <UserList users={usersList}/>
-      </div>
+      </>
   );
 }
 
